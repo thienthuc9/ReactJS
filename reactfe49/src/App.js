@@ -7,11 +7,15 @@ import BaiTapLayout1 from './Components/Btlayout1/BaiTapLayout1';
 import BaiTapLayout2 from './Components/BtLayout2/BaiTapLayout2';
 import DataBinDing from './Components/DataBinding/DataBinDing';
 import HandleEvent from './Components/HandleEvent/HandleEvent';
+import Styling from './Components/StylingComponent/Styling';
+import RenderWithState from './Components/RenderWithState/RenderWithState';
+import BaiTapChonXe from './Components/RenderWithState/BaiTapChonXe';
+import RenderWithMap from './Components/RenderWithMap/RenderWithMap';
 
 function App() {
   return (
     <div className="App">
-<HandleEvent></HandleEvent>    </div>
+      <RenderWithMap></RenderWithMap>    </div>
   );
 }
 
