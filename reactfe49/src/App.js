@@ -14,6 +14,7 @@ import RenderWithMap from './Components/RenderWithMap/RenderWithMap';
 import BaiTapRenderPhim from './Components/RenderWithMap/BaiTapRenderPhim';
 import DemoProps from './Components/Props/DemoProps';
 import BaiTapQLSP from './Components/Props/BaiTapQLSP';
+import BaiTapGioHang from './Components/BTGioHang/BaiTapGioHang';
 
 function App() {
   let mangSP =
@@ -28,7 +29,8 @@ function App() {
     ]
   return (
     <div className="App">
-<BaiTapQLSP mangSanPham ={mangSP}></BaiTapQLSP>      </div>
+      <BaiTapGioHang></BaiTapGioHang>
+    </div>
   );
 }
 
