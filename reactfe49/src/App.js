@@ -17,6 +17,8 @@ import BaiTapQLSP from './Components/Props/BaiTapQLSP';
 import BaiTapGioHang from './Components/BTGioHang/BaiTapGioHang';
 import BTGioHangRedux from './Components/BTRedux/BTGioHang/BTGioHangRedux';
 import BaiTapGameTaiXiu from './Components/BTRedux/BaiTapGameTaiXiu/BaiTapGameTaiXiu';
+import FormSinhVien from './Components/ReactForm/FormSinhVien';
+import DanhSachSinhVien from './Components/ReactForm/DanhSachSinhVien';
 
 function App() {
   let mangSP =
@@ -32,7 +34,7 @@ function App() {
   return (
 
 <div className="App">
-<BaiTapGameTaiXiu></BaiTapGameTaiXiu>    </div>
+<DanhSachSinhVien></DanhSachSinhVien>    </div>
   );
 }
 

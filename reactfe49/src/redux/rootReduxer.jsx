@@ -1,12 +1,15 @@
 import {combineReducers} from 'redux';
 import {GioHangReducer} from './GioHangReducer'
 import {gameXucXacReducer} from './GameXucXacReducer'
-
+import QLSinhVienReducer from './QLSinhVienReducer'
 
 // store tổng
-export const  rootReducer = combineReducers({
+ const rootReducer = combineReducers({
     // Nơi sẽ chứa store con 
     GioHangReducer:GioHangReducer,
-    stateGameXucXac:gameXucXacReducer
+    stateGameXucXac:gameXucXacReducer,
+    QLSinhVienReducer
+
 
 })
+export default rootReducer
