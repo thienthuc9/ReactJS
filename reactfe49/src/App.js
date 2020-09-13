@@ -16,6 +16,7 @@ import DemoProps from './Components/Props/DemoProps';
 import BaiTapQLSP from './Components/Props/BaiTapQLSP';
 import BaiTapGioHang from './Components/BTGioHang/BaiTapGioHang';
 import BTGioHangRedux from './Components/BTRedux/BTGioHang/BTGioHangRedux';
+import BaiTapGameTaiXiu from './Components/BTRedux/BaiTapGameTaiXiu/BaiTapGameTaiXiu';
 
 function App() {
   let mangSP =
@@ -31,8 +32,7 @@ function App() {
   return (
 
 <div className="App">
-   <BTGioHangRedux></BTGioHangRedux>
-    </div>
+<BaiTapGameTaiXiu></BaiTapGameTaiXiu>    </div>
   );
 }
 
